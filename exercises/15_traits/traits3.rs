@@ -6,7 +6,7 @@ trait Licensed {
     // without repeating the function.
     // The default license information should be the string "Default license".
     fn licensing_info(&self) -> String{
-        String::from("Default license")
+        "Default license".to_owned()
     }
 }
 
